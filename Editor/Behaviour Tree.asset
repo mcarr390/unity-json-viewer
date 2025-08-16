@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4166932462118206397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43f08d89539de525999638b4c2c2390, type: 3}
+  m_Name: SimpleNode
+  m_EditorClassIdentifier: 
+  guid: 8799a9f82a50f78ef9b912a213f3c10f
+  position: {x: 0, y: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3845c814a5b28008ba447ac8be5996, type: 3}
+  m_Name: Behaviour Tree
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 0}
+  nodes:
+  - {fileID: 5544040391760157089}
+  - {fileID: 3136738180786487866}
+  - {fileID: -4166932462118206397}
+--- !u!114 &3136738180786487866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43f08d89539de525999638b4c2c2390, type: 3}
+  m_Name: SimpleNode
+  m_EditorClassIdentifier: 
+  guid: 12dd42e7ff6f908c6b4f8accfd8a0f37
+  position: {x: 511, y: 151}
+--- !u!114 &5544040391760157089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43f08d89539de525999638b4c2c2390, type: 3}
+  m_Name: SimpleNode
+  m_EditorClassIdentifier: 
+  guid: 4262d7b18acc9df0ca44135c6ea5bb28
+  position: {x: 266, y: 130}
